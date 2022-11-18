@@ -1,0 +1,53 @@
+#DEBUT
+
+# Assigne tab1 en liste a 3 arguments, egaux a 1, 2 et 3
+# Assigne tab2 en liste a 3 arguments, egaux a 1, 2 et 3
+# Assigne tab3 en liste a 3 arguments, egaux a 1, 2 et 3
+# Definir une fonction ticTacToe qui lance la partie
+    # On definit le boolean win a false
+    # Tant que tour n'est pas egal a 9
+        # Si win est egal a True
+            # Faire un break
+        # Si win est egal a false
+            # Si le modulo 2 de tour n'est pas egal a 0 (Si tour est impaire)
+                # Lancer le tour du joueur 1
+                # Afficher le tableau
+                # Print le tour
+
+        # Si win est egal a false
+            # Si le modulo 2 de tour est egal a 0 (Si tour est paire)
+                # Lancer le tour du joueur 2 
+                # Afficher le tableau
+                # Print le tour
+
+
+        # On note les conditions de victoire de J1 en ligne
+            # EXEMPLE : Si tab1[0] == tab1[1] == tab1[2] == "X"
+                # Alors print un message de victoire
+                # Definir win a True
+        # On note les conditions de victoire de J1 en collone
+        # On note les conditions de victoire de J1 en diagonale
+
+        # On note les conditions de victoire de J2 en ligne
+        # On note les conditions de victoire de J2 en collone
+        # On note les conditions de victoire de J2 en diagonale
+
+    #Si aucune condition n'est remplie dans les 9 tours impartis alors print un message d'égalité
+
+
+# Defini tourJ1
+    # Assigne plr1 a un input et remplace la case visée
+        # EXEMPLE : Si l'input est egal a 1
+            # Si la case tab1[0] n'est n'y 'X' n'y 'O'
+                # Alors remplacer la case tab1[0] par X
+    # Si aucune condtion n'est remplie (valeur incorrecte ou case deja prise)
+        # Print valeur incorrecte
+        # Relancer le tour
+
+# Defini tourJ2
+    # Assigne plr2 a un input et remplace la case visée
+    # Si aucune condtion n'est remplie (valeur incorrecte ou case deja prise)
+        # Print valeur incorrecte
+        # Recommencer l'input
+    
+#FIN
