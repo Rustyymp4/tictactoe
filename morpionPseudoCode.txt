@@ -1,0 +1,42 @@
+#On definit une liste de coordonnees
+#On cree une valeur jeu 
+
+#Avec la liste de coordonnees, on cree un dictionnaire
+
+#On cree un arbre de relation qui va tester toutes les possibilitees de jeu afin de selectionner la meilleure et de contrer le joueur
+    #Tout les cas de victoires y sont repertories
+    #Tout les cas de defaites y sont repertories
+    #Tout les cas d'egalites y sont repertories 
+
+#On definit un programme qui va verifier si les cases assignes au meme joueur sont alignes
+    #Si elles sont alignes en ligne alors on rajoute 1 a ligne
+    #Si elles sont alignes en colonne alors on rajoute 1 a colonne
+    #Si elles sont alignes en diagonale alors on rajoute 1 a diqgonale
+    #Si ligne est egal a deux alors return True, deux choix sont alignes en ligne
+    #Si colonne est egal a deux alors return True, deux choix sont alignes en colonne
+    #Si diagonale est egal a deux alors return True, deux choix sont alignes en diagonale
+
+#On definit choix bot qui va
+    #Voir le choix optimisé 
+    #Et le jouer 
+
+#On definit morpion qui lance une partie de morpion
+    #On initialise victoire a false
+    #On initialise egalite a false
+    #On initialise tour a -1
+    #On initialise error a 0
+        #Tant que victoire et egalite sont false
+            #Incrementer tour de 1
+            #Si tour est impaire
+                #Demander un input au j1
+                #Verifier que l'input recut est valable (du type (x, y))
+                    #Redemander l'input
+                #Si il y a victoire
+                    #Alors mettre victoire a True
+            #Faire jouer l'IA 
+            #Si tour est egal a 8
+                #Alors print un message d'egalite et mettre egalite a True
+            #Si victoire est a True 
+                #Si le tour est impaire alors print un message de victoire
+                #Sinon print un message de defaite
+
